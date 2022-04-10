@@ -22,19 +22,19 @@
 }
 
 .footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  color: #da8aff;
+  text-decoration: none;
 }
 
 .title a {
-  color: #0070f3;
+  color: #da8aff;
   text-decoration: none;
 }
 
 .title a:hover,
 .title a:focus,
+.footer a:hover,
+.footer a:focus,
 .title a:active {
   text-decoration: underline;
 }
@@ -42,7 +42,10 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
 }
 
 .title,
@@ -57,7 +60,8 @@
 }
 
 .code {
-  background: #fafafa;
+  background: #f7e9ff;
+  color: #da8aff;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
