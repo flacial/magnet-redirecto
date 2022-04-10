@@ -8,6 +8,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Magnet Redirecto</title>
         <meta name="description" content="Magnet to URL or something like that" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico"/>
       </Head>
 
       <main className={styles.main}>
