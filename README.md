@@ -8,4 +8,8 @@
     ```
 - Send it to your bot (e.g., `bot.send(-0000000, magnetLink), { format: 'HTML' }`)
 
-*Note: methods for creating the base64 or sending the message may vary depeding on your programming language and Telegram bot API wrapper*
+Note: methods for creating the base64 or sending the message may vary depeding on your programming language and Telegram bot API wrapper
+
+# Credits
+
+*Got the idea from https://github.com/UnblockerAPI/magnet-api*
